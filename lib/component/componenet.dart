@@ -1,0 +1,73 @@
+class CarImage {
+  List<String> image = [
+    "assets/Cars/audi.png",
+    "assets/Cars/bmw.png",
+    "assets/Cars/ferrari.jpg",
+    "assets/Cars/cobalt.png",
+    "assets/Cars/lacetti.png",
+    "assets/Cars/lamborghini.png",
+    "assets/Cars/malibu1.png",
+    "assets/Cars/malibu2.png",
+    "assets/Cars/moto.jpg",
+    "assets/Cars/nexia2.png",
+    "assets/Cars/nexia3.png",
+    "assets/Cars/onix.png",
+    "assets/Cars/prado.png",
+    "assets/Cars/tahoe.png",
+    "assets/Cars/toyota.png",
+  ];
+  List<String> price = [
+    "\$48.795",
+    "\$100.000",
+    "\$3.085.000",
+    "\$8.000",
+    "\$10.700",
+    "\$237.848",
+    "\$18.134",
+    "\$22.227",
+    "\$7.227",
+    "\$6.210",
+    "\$7.023",
+    "\$14.569",
+    "\$17.569",
+    "\$23.209",
+    "\$1.214.000",
+  ];
+
+  List<String> carName = [
+    "AUDI R8",
+    "BMW X5",
+    "Ferrari F40",
+    "Chevrolet Cobalt",
+    "Chevrolet Lacetti",
+    "Lamborghini Urus",
+    "Chevrolet Malibu 1",
+    "Chevrolet Malibu 2",
+    "Moto Suzuki GSX 8S",
+    "Chevrolet Nexia 2",
+    "Ravon Nexia 3",
+    "Chevrolet Onix",
+    "Chevrolet Prado",
+    "Chevrolet Tahoe",
+    "Toyota Camry"
+  ];
+
+  List<String> information = [
+    "Audi R8 5.2 V10 Plus R8 qatoridagi top model bo'lib, R8 top modelining narxi \$48.795. Bu 6,71 kmpl ni tashkil qiladi. Audi R8 5.2 V10 Plus Avtomatik uzatmalar qutisida mavjud va 8 rangda taqdim etiladi: Mythos Black, Kamuflyaj Yashil, Daytona Grey, Floret Silver, Dynamite Red, Suzuka Grey, Ibis White va Vegas Yellow.",
+    "BMW X5 1 ta dizel va 1 ta benzinli dvigatelga ega. Dizel dvigateli 2993 kub kub, benzinli dvigatel esa 2998 kub kub. Avtomatik uzatmalar qutisi mavjud. Variant va yonilg'i turiga qarab X5 12,0 kmpl masofani bosib o'tadi. X5 5 o'rinli 6 silindrli avtomobil bo'lib , uzunligi 4922 mm, kengligi 2218 mm va g'ildirak bazasi 2975 mm.",
+    "Turi: 2,9 litrli ikki turbo quvvatli V8 Quvvat: Taxminan 471 ot kuchi Moment: Taxminan 426 lb-ft Konfiguratsiya: o'rta orqa dvigatel, orqa g'ildirak Eng yuqori tezlik: Taxminan 201 milya (324 km/soat) 0-60 milya: atigi 4 soniyadan ko'proq Og'irligi: Taxminan 2,425 funt (1,100 kg)",
+    "Chevrolet Cobalt turli xil dvigatel variantlari, jumladan, to'rt silindrli dvigatellar bilan taklif qilindi. Keng tarqalgan dvigatellardan biri Ecotec seriyali bo'lib, u 2,0 va 2,2 litr hajmdagi opsiyalarni o'z ichiga oladi. Modelga qarab, Cobalt 5 pog'onali mexanik uzatmalar qutisi yoki 4 pog'onali avtomat uzatmalar qutisi bilan jihozlanishi mumkin.",
+    "Lacetti bir qator dvigatel variantlari, jumladan, to'rt silindrli benzinli dvigatellar bilan taklif qilindi.Umumiy dvigatellar 1.4L, 1.6L va 1.8L variantlarini o'z ichiga oladi. Lacetti odatda MacPherson tirgaklari bilan mustaqil old osma va yarim mustaqil orqa suspenziyaga ega edi.",
+    "Turi: 4,0 litrli ikki turbo quvvatli V8 Quvvat: Urus taxminan 641 ot kuchi (650 ot kuchi) va 627 funt-fut moment ishlab chiqaradi.Konfiguratsiya: old dvigatel, to'liq g'ildirakli haydovchi Eng yuqori tezlik: Urus o'zining ta'sirchan maksimal tezligi bilan mashhur bo'lib, taxminan 190 milya (305 km/soat) gacha yetadi.Tezlashtirish: U taxminan 3,5 soniyada 0 dan 60 milyagacha tezlashishi mumkin.",
+    "Chevrolet Malibu uchun asosiy dvigatel ko'pincha turbo zaryadlangan 1,5 litrli inline-4 hisoblanadi.Chiqish quvvati taxminan 160 ot kuchi va 184 lb-ft momentni tashkil qiladi. Malibu yonilg'i tejamkorligi va qulay haydashga e'tibor qaratgan holda o'rta o'lchamli sedan sifatida ishlab chiqilgan CVT bilan birlashtirilgan 1,5 litrli dvigatel shahar va avtomobil yo'llarida yaxshi yoqilg'i tejamkorligini ta'minlash uchun mo'ljallangan.",
+    "Chevrolet Malibu 2 odatda bir qator dvigatel variantlarini taklif qiladi. Umumiy dvigatellar ishlash va yonilg'i samaradorligini muvozanatlash uchun turbo zaryadlangan to'rt silindrli variantlarni o'z ichiga oladi.Misollar 1,5 litrli yoki 2,0 litrli turbo dvigatelni o'z ichiga olishi mumkin. Old va orqadagi disk tormozlari, odatda ABS (Blokirovkaga qarshi tormoz tizimi) kabi zamonaviy xavfsizlik xususiyatlari bilan jihozlangan.",
+    "Quvvat: taxminan 112 ot kuchi Moment: Taxminan 69 lb-ft Transmissiya: 6-tezlikda doimiy tarmoq Turi: to'rt zarbali, inline-to'rt silindrli Hajmi: 749  Yoqilg'i tizimi: yonilg'i quyish Old tormozlar: ABS bilan diskli tormozlar Orqa tormozlar: ABS bilan diskli tormozlar Shinalar hajmi (old): 120/70ZR17M/C (58W) Shinalar hajmi (orqa): 180/55ZR17M/C (73W)",
+    "Uzunlik, mm:	4516 Kengligi, mm:	1662 Balandligi, mm:	1393 Old g'ildirak yo'li, mm:	1400 Orqa g'ildirak izi, mm:	1406 Erni tozalash, mm:	158 Min. burilish radiusi, m:	4.9 Jihozlangan transport vositasining og'irligi, kg: 1025 Umumiy vazn, kg: 1530 Magistral hajmi, l:	530 Batareya quvvati, V (Ah):	12 (55) Generator:	85A",
+    "Balandligi, mm:	1505 Uzunlik, mm:	4330 G'ildirak bazasi, mm:	2480 Trek (old / orqa), mm:	1454/1444 Kengligi, mm:	1690 Batareya 12V, Ah:	55 Maks. moment, Nm/rev. min:	3800 aylanish tezligida 141 N*m Maksimal quvvat, kVt:	78 kVt / 106 ot kuchi /5800 rpm Gaz taqsimlash mexanizmi:	DOHC, DOHC, 16 valfli, zanjirli Model:	B15D2 Ish hajmi, sm kub	1485 Ta'minot tizimi: Ko'p portli yonilg'i quyish Yoqilg'i turi va markasi:	AI-92 va undan yuqori",
+    "Onix odatda uch yoki to'rt silindrli kichik hajmli dvigatellar bilan taklif etiladi. Umumiy dvigatel variantlari 1,0 va 1,2 litrli benzinli dvigatellarni o'z ichiga oladi. Quvvat chiqishi va unumdorlik ko'rsatkichlari dvigatel konfiguratsiyasiga qarab farq qilishi mumkin, ammo Onix odatda yoqilg'i tejash va shaharda qatnov uchun mo'ljallangan. Xavfsizlik xususiyatlariga havo yostiqchalari, barqarorlikni boshqarish, blokirovkaga qarshi tormoz tizimi (ABS) va boshqa haydovchiga yordam berish funksiyalari kiradi.",
+    "Og'irligi, kg:	2090, Avtomobilning umumiy og'irligi, kg:	2475, O'ziga xos tortishish, kg / ot kuchi:	12.82, Dvigatel ishlab chiqarish:	2TR-FE, Ishlatilgan yoqilg'i:	Oddiy benzin (AI-92, AI-95), dvigatel turi:	In-line, 4 silindrli, Supercharger:	—, Maksimal quvvat, ot kuchi (kVt) aylanish tezligida:	163 (120) / 5200, Kombinatsiyalangan siklda yoqilg'i sarfi, l/100 km:	11.1",
+    "Yuklanmagan og'irlik (kg) haydovchi bilan birga:	2717 - 2776, Maksimal ruxsat etilgan vazn (kg):	3402, Old/orqa aksda ruxsat etilgan maksimal yuk (kg):	1633/1950, Maksimal tezlik (km/soat):	180, Tezlashuv 0 - 100 km/soat (sek):	8.0, Yoqilg'i sarfi (l/100 km):	17.9, Yoqilg'i ta'minoti:	to'g'ridan-to'g'ri yonilg'i quyish, Maksimal quvvat (aylanishda kVt/hp):	252 kVt / 343 ot kuchi @5600, Maksimal moment (aylanishda Nm):	512 @ 4100",
+    "Tahoe odatda bir qator dvigatel variantlarini taklif qiladi. Umumiy dvigatellar keng quvvat uchun V8 variantlarini o'z ichiga oladi. Masalan, 5,3 litrli V8 dvigateli va mavjud 6,2 litrli V8 dvigateli. Disk tormozlari barcha to'rt g'ildirakda keng tarqalgan bo'lib, ko'pincha ABS (blokirovkaga qarshi tormoz tizimi) kabi funktsiyalar bilan jihozlangan. Chevrolet Tahoe odatda LS, LT, RST, Z71, Premier va High Country kabi turli trim darajalarida mavjud bo'lib, ularning har biri turli funksiya va variantlarni taklif etadi.",
+    "Camry odatda to'rt silindrli va V6 variantlarini o'z ichiga olgan bir qator dvigatel variantlarini taklif qiladi. Misollar 2,5 litrli to'rt silindrli dvigatel va 3,5 litrli V6 dvigatelini o'z ichiga olishi mumkin. Quvvat chiqishi dvigatelga qarab o'zgaradi, V6 to'rt silindrli variantlardan ko'ra ko'proq ot kuchini taklif qiladi.Camry yoqilg'i samaradorligi va unumdorligi muvozanati uchun mo'ljallangan. Camry o'rta kattalikdagi sedan bo'lib, besh yo'lovchiga mo'ljallangan.",
+  ];
+}
